@@ -1,0 +1,55 @@
+/* h1{
+    color: red;
+}
+ */
+
+/* 
+
+*{
+    color: red;
+} */
+
+/* h1{
+    color: blue;
+} */
+
+/* .heading{
+    color: green;
+}
+
+#list{
+    color: blue;
+} */
+
+/* .container > h1{
+    color: purple;
+} */
+
+
+/* .container h1{
+    color: aqua;
+} */
+
+
+/* i{
+    color: blue !important;
+}
+i{
+    color: green;
+} */
+
+/* h1{
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+
+/* h1{
+    color: gold;
+    color:#27F59F;
+    color: rgb(196, 164, 222);
+} */
+
+h1{
+    background-color: rgba(200, 100, 231 , 0.1);
+    /* opacity: 0.4; */
+}

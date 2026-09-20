@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms!</title>
+</head>
+<body>
+    
+    <h1>Hello World!</h1>
+
+    <!-- <input type="text" placeholder="Type your name"
+    maxlength="16"
+    >
+    <br>
+    <input type="password" name="" id=""><br>
+    <input type="file" name="" id="">
+    <input type="datetime-local" name="" id="">
+    <input type="radio" name="" id="">
+    <input type="checkbox" name="" id=""> -->
+
+
+    <fieldset>
+
+        <legend>User Info</legend>
+
+    
+
+    <form action="./submitted.html" method="get">
+
+        <label for="fullname">Fullname:</label>
+        <input type="text" id="fullname"
+        placeholder="Type your name" minlength="3"
+        maxlength="16" required name="fullname"
+        > <br><br>
+        <label for="email">Email:</label>
+        <input type="email" name="email" required
+        placeholder="Type your Email" id="email"
+        ><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password"
+        placeholder="Type your password" name="password"
+        minlength="8" required
+        ><br><br>
+        <label>Gender:</label>
+        <input type="radio" name="gender"
+        id="male" value="male"
+        >
+        <label for="male">Male</label>
+        <input type="radio" name="gender"
+        value="female" id="female"
+        >
+        <label for="female">Female</label><br><br>
+        <label>Hobbies:</label>
+        <input type="checkbox" name="hobbies"
+        value="reading" id="reading"
+        >
+        <label for="reading">Reading</label>
+ <input type="checkbox" name="hobbies"
+        value="cooking" id="cooking"
+        >
+        <label for="cooking">cooking</label>
+
+         <input type="checkbox" name="hobbies"
+        value="Writing" id="Writing"
+        >
+        <label for="Writing">Writing</label>
+
+         <input type="checkbox" name="hobbies"
+        value="Coding" id="Coding"
+        >
+        <label for="Coding">Coding</label> <br><br>
+
+        <select name="Countries">
+            <option disabled selected>Select Your Country</option>
+            <option value="Iran">Iran</option>
+            <option value="Oman">Oman</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="China">China</option>
+            <option value="Japan">Japan</option>
+        </select> <br><br>
+
+        <button type="submit">Submit</button>
+
+
+    </form>
+
+
+</fieldset>
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+</body>
+</html>

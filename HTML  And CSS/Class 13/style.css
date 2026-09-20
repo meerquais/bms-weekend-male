@@ -1,0 +1,84 @@
+h1{
+    color: red;
+}
+
+.list{
+    /* list-style-type:disc;
+    list-style-position: inside; */
+    list-style: none;
+}
+
+/* table{
+    width: 500px;
+}
+th,td{
+    padding: 7px 10px 10px 10px;
+}
+th{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 90%;
+    border-bottom: 2px solid #111111;
+    border-top: 1px solid #999;
+    text-align: left;
+}
+tr.even {
+background-color: #efefef;
+}
+tr:hover {
+background-color: #c3e6e5;
+}
+.money{
+    text-align: right;
+}
+
+td:hover{
+    background-color: #8a9797;
+} */
+
+.one{
+    width: 200px;
+    /* border: 1px solid red; */
+    empty-cells: hide;
+    /* border-spacing: 20px; */
+    border-collapse: collapse;
+}
+/* .one tr td{
+    border: 1px solid red;
+} */
+
+/* input{
+    border: 1px solid black;
+    width: 200px;
+    padding: 2px 10px;
+    outline: none;
+    border-radius: 6px;
+    color: blue;
+}
+input:focus{
+    background-color: rgb(216, 211, 211);
+} */
+
+button{
+    border: none;
+    padding: 10px 30px;
+    background-color: rgb(70, 172, 235);
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    /* text-shadow: 0px 1px 1px #ffffff; */
+    box-shadow:0px 2px 2px #818080;;
+}
+button:hover{
+    background-color: rgb(36, 142, 208) ;
+}
+
+
+ul{
+    /* list-style: none; */
+}
+
+ul li::marker{
+    content: "🫆";
+}

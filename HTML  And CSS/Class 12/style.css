@@ -1,0 +1,32 @@
+.box{
+    /* background-color: red; */
+    /* width: 400px; */
+    /* min-width: 400px; */
+    /* height: 400px; */
+    /* min-height: 400px; */
+    /* max-height: 400px; */
+    /* height: 200px; */
+    /* overflow-y: scroll; */
+    /* border-width: 1px;
+    border-style: solid;
+    border-color: red; */
+    /* border: 1px solid blue; */
+    /* margin: 20px 0px 0px 40px; */
+    /* margin: 30px 50px; */
+    /* margin: 20px auto; */
+    /* padding: 5px 0px 0px 5px; */
+}
+
+h1{
+    /* display: inline-block; */
+    /* display: none; */
+    /* visibility: hidden; */
+}
+
+.container{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    box-shadow: 5px 5px 5px 2px blue;
+    border-radius: 50%;
+}
